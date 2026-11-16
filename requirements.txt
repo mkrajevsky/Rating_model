@@ -6,3 +6,5 @@ matplotlib>=3.7
 seaborn>=0.13
 ipykernel>=6.0
 notebook>=7.0
+shap==0.54.1
+lime==0.2.0.1
