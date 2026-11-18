@@ -23,7 +23,7 @@ Orientacyjny pozostały nakład: **8–15 roboczogodzin**, przy wykorzystaniu is
 | Kalibracja | Częściowo | Platt/isotonic/brak kalibracji dla regresji, CV kalibratorów, ECE/ACE/CITL/slope/reliability, dostosowanie do 4%. Analogiczny eksperyment black-box jest wykonany. Brakuje niezależnej oceny testowej obu modeli. |
 | Wierność i stabilność XAI | Eksperymenty wykonane | LIME: R² na próbie syntetycznej i innych rzeczywistych firmach validation, powtórzenia pięciu seedów przy 500/2000 perturbacjach, Spearman i Jaccard. Wierność jest ograniczona; konieczne omówienie w raporcie. |
 | Progi, ratingi, kontrfaktyk | Do zrobienia | Trzeba ustalić koszty, ratingi, ograniczenia zmian i porównać decyzje obu modeli. |
-| Raport / Model Card / prezentacja | Do zrobienia | Są wymagania, README i źródła kodu. Nie ma kompletnych materiałów do oddania. |
+| Raport / Model Card / prezentacja | Częściowo | Utworzono wstępną MODEL_CARD.md zgodną z Lab 3 i wymaganiami, z planem monitoringu i opisem AI. Raport i prezentacja pozostają do wykonania; kartę trzeba uzupełnić po końcowej ocenie. |
 
 ## Dokładna mapa kodu z laboratoriów
 

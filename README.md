@@ -58,3 +58,8 @@ Sekcje 6–8 dodają kalibrację black-box, TreeSHAP (ranking, beeswarm, depende
 Do laboratoryjnego R² LIME dodano ocenę na innych rzeczywistych firmach validation oraz Spearmana i Jaccarda dla powtórzeń seedów. Wyniki wskazują na ograniczoną wierność LIME w tym eksperymencie; wykresy nie stanowią dowodu jakości wyjaśnień. Surowe TreeSHAP w log-szansach i LIME końcowego PD są jawnie rozdzielone.
 
 Zależności SHAP i LIME są zapisane w `pyproject.toml` i `requirements.txt`. Przy aktywnym lokalnym środowisku projektu należącego do workspace użyj `uv sync --active` przed uruchomieniem notebooka. Dopasowane estymatory są w pamięci notebooka; do odtworzenia uruchom wszystkie komórki od początku.
+
+
+## Model Card
+
+[MODEL_CARD.md](MODEL_CARD.md) dokumentuje aktualny cel, dane, modele, wyniki validation/CV, kalibrację do 4%, wyjaśnienia, ograniczenia, plan monitoringu i użycie AI. Jest to wersja wstępna; wyniki testowe, ratingi i próg operacyjny nie zostały jeszcze uzupełnione.
